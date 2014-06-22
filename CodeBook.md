@@ -25,7 +25,7 @@ ___
 > *activityName*:
 >>  Identifier for participant in study.  Values range processed from the original based on activityID.  This column was removed from tidy dataset as it is not needed.
 
-#####  All data columns values are betweeen -1 and 1
+
 
 ---
 
@@ -120,5 +120,7 @@ ___
 | 85 | 560 | angle(Y,gravityMean) |
 | 86 | 561 | angle(Z,gravityMean) |
 
+
+#####  N.B.  All data columns values are betweeen -1 and 1
 
 ___
