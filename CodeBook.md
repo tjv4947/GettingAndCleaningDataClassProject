@@ -29,7 +29,7 @@
 ### List of column names for data values in dataset
 
 | | colIdx |          colName                | 
-| |--|:------:|--------------------------------|
+|--|------|--------------------------------|
 | 1 | 1 | tBodyAcc-mean()-X |
 | 2 | 2 | tBodyAcc-mean()-Y |
 | 3 | 3 | tBodyAcc-mean()-Z |
@@ -115,4 +115,7 @@
 | 83 | 558 | angle(tBodyGyroJerkMean,gravityMean) |
 | 84 | 559 | angle(X,gravityMean) |
 | 85 | 560 | angle(Y,gravityMean) |
-| 86 | 561 | angle(Z,gravityMean)
+| 86 | 561 | angle(Z,gravityMean) |
+
+
+
