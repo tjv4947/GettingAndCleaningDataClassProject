@@ -15,7 +15,7 @@
 
 >>> * Manipulate the data to remove unused columns and combine with subjectID's and activityNames, 
 
->>> * Merge data from the two sets together,
+>>> * Merge data from the Test and Train sets together,
 
 >>> * Process to determine mean values of columns and aggregate the data
 
