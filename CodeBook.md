@@ -15,16 +15,19 @@
 |	6 |	LAYING             |
 
 
-
+___
 
 ### Tidy Dataset Columns
 
 > *subjectID*:
 >>  Identifier for participant in study.  Values range from 1 - 30.
 
-
+> *activityName*:
+>>  Identifier for participant in study.  Values range processed from the original based on activityID.  This column was removed from tidy dataset as it is not needed.
 
 #####  All data columns values are betweeen -1 and 1
+
+---
 
 ### List of column names for data values in dataset
 
@@ -118,4 +121,4 @@
 | 86 | 561 | angle(Z,gravityMean) |
 
 
-
+___

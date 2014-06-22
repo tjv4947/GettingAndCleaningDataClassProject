@@ -4,13 +4,11 @@
 ##
 ##   Assumes that the zip file has been downloaded and expanded from:
 ###   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-###  Script assumes that it has been copied to same disk as the files and the R working directory 
-###   has been set to main location of the files
+###  Script assumes that it has been copied to same disk as the data files and the R working 
+###   directory has been set to main location of the files
 ###
 ###   The code is divided into sections to read data from disk, manipulate the data, merge and 
 ###     aggregate the data as well as write it out to a file.
-###
-###
 ###
 ###
 ###   Note:  Many of the steps create their own data frames to allow for debugging and analysis.
@@ -91,9 +89,10 @@ print("Into code section analyzing merged dataset to create new tidy dataset")
 print("Writing out new dataset to disk")
 
 #Code to deal with problem with column names are truncated from original
-myColNames = c("activityName", "subjectID", as.character(keepCols$colName))   ##"idx", 
+myColNames = c("activityName", "subjectID", as.character(keepCols$colName))  
 
-## if file exists delete it.  If file is locked by another process the write will fail.
+## If file exists delete it.  
+### If file is locked by another process (such as excel) the write will fail.
     fn <- "AggregatedAverageData.txt"
     if (file.exists(fn)) file.remove(fn)
     write.table(tidyAggregatedAverageData, file = fn, sep = ",", row.names=FALSE, col.names = myColNames)
