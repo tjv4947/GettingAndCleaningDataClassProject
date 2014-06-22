@@ -17,7 +17,8 @@
 
 ___
 
-### Tidy Dataset Columns
+### Aggregated Average Data (taken from raw datafiles)
+####Dataset Columns Names
 
 > *subjectID*:
 >>  Identifier for participant in study.  Values range from 1 - 30.
@@ -29,10 +30,10 @@ ___
 
 ---
 
-### List of column names for data values in dataset
+### List of column names for data values in tidy dataset
 
 |    | colIdx |          colName                | 
-|----|--------|---------------------------------|
+|----|:--------:|---------------------------------|
 | 1 | 1 | tBodyAcc-mean()-X |
 | 2 | 2 | tBodyAcc-mean()-Y |
 | 3 | 3 | tBodyAcc-mean()-Z |

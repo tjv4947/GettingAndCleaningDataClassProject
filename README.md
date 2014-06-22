@@ -20,11 +20,10 @@
           possible additional reporting 
 
 
+___
 
 
 ## Processing steps
-
-##
 
 
 > *subjectID*:
@@ -35,9 +34,11 @@
 
 
 >> *Data Columns*:
->>  The original raw data has 561 columns.  We are interested in only the data columns which are >> >>  either mean or std columns.  The other columns were removed from data frame before aggregated 
->>  and written to the tidy dataset.  See the code book for the complete column list of the tidy 
->>  dataset
+>>  The original raw data set contained a total of 561 columns.  We are interested in only the 
+>>  data columns which are either *mean* or *std* columns.  The other columns were removed  
+>>  from data frame before aggregated and written to the tidy dataset.  
+
+>> See the code book for the complete column list of the tidy dataset
 
 
 ___

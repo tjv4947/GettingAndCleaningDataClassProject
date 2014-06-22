@@ -23,8 +23,7 @@
 
 print("Beginning to read data from disk.")
 
-##  N.B. Could add error checking and abort execution if problem with files
-## read setup files
+##  N.B. Could add error checking and abort execution if problem with files read setup files
     columnNames <- read.table("features.txt", col.names=c("idx","colName"))
     activityLabel <- read.table("activity_labels.txt", col.names=c("idx","activityName"))
 
