@@ -10,6 +10,9 @@
 ###   The code is divided into sections to read data from disk, manipulate the data, merge and 
 ###     aggregate the data as well as write it out to a file.
 ###
+###   Note:  Because the processing of the raw data files takes quite a bit of time, I have added
+###          print statements to show where the script is in the process and when it finishes
+###          writing out the data file
 ###
 ###   Note:  Many of the steps create their own data frames to allow for debugging and analysis.
 ###          They could be consolodated, but are left here for documentation, clarity and

@@ -1,7 +1,7 @@
-#Getting and Cleaning Data #
-##Course Poject Codebook file ##
+##Getting and Cleaning Data #
+###Course Poject Codebook file ##
 
-
+<Description of data from aggregated data set>
 
 
 ### Activity Labels
