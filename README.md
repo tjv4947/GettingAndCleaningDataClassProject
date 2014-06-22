@@ -45,10 +45,10 @@ ___
 > *Data Columns*:
 
 >>  The original raw data files contained a total of 561 columns.  We are interested in only the 
->>  data columns which are either *mean* or *std* columns.  The other columns were removed  
->>  from data frame before they were aggregated and written to the tidy dataset.  
+>>  data columns which are either *mean* or *std* columns.  The other columns were removed from data frame before 
+>>  they were aggregated and written to the tidy dataset.  
 
->> See the code book for the complete column list of the tidy dataset
+>> See the Codebook for the complete column list of the tidy dataset
 
 
 ___

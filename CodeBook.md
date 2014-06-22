@@ -5,6 +5,7 @@
 
 
 ### Activity Labels
+
 | idx |  ActivityName      |
 |-----|--------------------|
 |   1 |	WALKING            |    
@@ -17,7 +18,7 @@
 
 ___
 
-### Aggregated Average Data (taken from raw datafiles)
+### Aggregated Average Data (taken from raw data files)
 ####Dataset Columns Names
 
 > *subjectID*:
