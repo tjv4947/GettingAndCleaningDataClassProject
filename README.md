@@ -1,7 +1,7 @@
 ##Getting and Cleaning Data: #
 ###Course Project README file ##
 
-####   * R Script File for processing raw smart phone data* ###
+####   *R Script File for processing raw smart phone data* ###
 
 >>   Assumes that the zip file has been downloaded and expanded from:
 >>>   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -32,7 +32,7 @@
 ___
 
 
-## Processing steps
+### Data after Processing Steps:
 
 
 > *subjectID*:
@@ -42,10 +42,11 @@ ___
 >>  Identifier for participant in study.  Values range processed from the original based on activityID.  This column was removed from tidy dataset as it is not needed.
 
 
->> *Data Columns*:
->>  The original raw data set contained a total of 561 columns.  We are interested in only the 
+> *Data Columns*:
+
+>>  The original raw data files contained a total of 561 columns.  We are interested in only the 
 >>  data columns which are either *mean* or *std* columns.  The other columns were removed  
->>  from data frame before aggregated and written to the tidy dataset.  
+>>  from data frame before they were aggregated and written to the tidy dataset.  
 
 >> See the code book for the complete column list of the tidy dataset
 
@@ -55,10 +56,10 @@ ___
 
 
 
-*Examples of some counts from the Raw data*:
+*Examples of some counts from the raw data*:
 
 
-_colSums(table(mergeData$subjectID, mergeData$activityName))_
+> Command:  _colSums(table(mergeData$subjectID, mergeData$activityName))_
 
 |   LAYING | SITTING | STANDING | WALKING | WALKING_DOWNSTAIRS | WALKING_UPSTAIRS |
 |:----------:|:----------:|:---------:|:----------:|:---------:|:--------------------:|:-------------------:|
@@ -67,7 +68,7 @@ _colSums(table(mergeData$subjectID, mergeData$activityName))_
 
 ---
 
-_table(mergeData$subjectID, mergeData$activityName)_
+> Command:  _table(mergeData$subjectID, mergeData$activityName)_
 
 |subjectID |   LAYING | SITTING | STANDING | WALKING | WALKING_DOWNSTAIRS | WALKING_UPSTAIRS |
 |:----------:|:----------:|:---------:|:----------:|:---------:|:--------------------:|:-------------------:|
