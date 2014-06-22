@@ -11,15 +11,15 @@
 
 >>   The code is divided into sections:
 
-* Read data from disk and name columns, 
+> * Read data from disk and name columns, 
 
-* Manipulate the data to remove unused columns and , 
+> * Manipulate the data to remove unused columns and , 
 
-* Merge data from the two sets together,
+> * Merge data from the two sets together,
 
-* Process to determine mean values of columns and aggregate the data
+> * Process to determine mean values of columns and aggregate the data
 
-* Write tidy dataset out to a file.
+> * Write tidy dataset out to a file.
 
 
 
