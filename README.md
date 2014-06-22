@@ -21,6 +21,17 @@
 
 >>> * Write tidy dataset out to a file.
 
+>> The run_analysis.R file is fairly well documented and the various data frames and other variables are named to be descriptive of their functions.  For example:
+
+>>> columnNames:  The original columnNames for all 561 variables in raw data files
+
+>>> keepcols:  the dataframe which contains the column names to be preserved.
+
+>>> xTestRaw & xTrainRaw:  contain the raw data read from disk
+
+>>> mergeData:  final cleaned up data before aggregation was performed
+
+>>> tidyAggregatedAverageData:  data frame containing the aggregated data to be written out to file
 
 
 

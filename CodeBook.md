@@ -1,12 +1,19 @@
 ##Getting and Cleaning Data #
 ###Course Poject Codebook file ##
 
-<Description of data from aggregated data set>
+The following is a description of the tidy dataset taken from the raw Test and Train data files.  
+The data were combined with the activityNames taken from the activity_labels file (description below).  The activityNames were matched to the activityID column from the original data.  This column was removed from the tidy data, as it was not longer needed once  the descriptive names had been combined.
+
+_____
+
+
+### Data description:
+
 
 
 ### Activity Labels
 
-| idx |  ActivityName      |
+| idx |  activityName      |
 |-----|--------------------|
 |   1 |	WALKING            |    
 |	2 |	WALKING_UPSTAIRS   |
@@ -123,6 +130,6 @@ ___
 | 86 | 561 | angle(Z,gravityMean) |
 
 
-#####  N.B.  All data columns values are betweeen -1 and 1
+#####  N.B.  All data columns values are betweeen [-1 and 1]
 
 ___
