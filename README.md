@@ -9,8 +9,12 @@
 >>   Script assumes that it has been copied to same disk as the data files and the R working 
 >>   directory has been set to main location of the files
 
->>   The code is divided into sections to read data from disk, manipulate the data, merge and 
->>     aggregate the data as well as write it out to a file.
+>>   The code is divided into sections:
+*to read data from disk, 
+* Manipulate the data, 
+* Merge data from the two sets together
+* Process the data to determine mean valus of columns and aggregate the data
+* Write it out to a file.
 
 
 
