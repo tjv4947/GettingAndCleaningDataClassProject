@@ -28,8 +28,8 @@
 
 ### List of column names for data values in dataset
 
-| | colIdx |          colName                | 
-|--|------|--------------------------------|
+|    | colIdx |          colName                | 
+|----|--------|---------------------------------|
 | 1 | 1 | tBodyAcc-mean()-X |
 | 2 | 2 | tBodyAcc-mean()-Y |
 | 3 | 3 | tBodyAcc-mean()-Z |

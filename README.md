@@ -22,4 +22,17 @@
 
 
 
+## Processing steps
+
+##
+
+
+> *subjectID*:
+>>  Identifier for participant in study.  Values range from 1 - 30.
+
+> *activityName*:
+>>  Identifier for participant in study.  Values range processed from the original based on activityID.  This column was removed from tidy dataset as it is not needed.
+
+
+
 
