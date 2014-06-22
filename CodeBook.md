@@ -39,7 +39,7 @@ ___
 
 ---
 
-### List of column names for data values in tidy dataset
+#### List of column names for data values in tidy dataset
 
 |    | colIdx |          colName                | 
 |----|:--------:|---------------------------------|
