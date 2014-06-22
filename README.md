@@ -13,7 +13,7 @@
 
 >>> * Read data from disk and name columns, 
 
->>> * Manipulate the data to remove unused columns and , 
+>>> * Manipulate the data to remove unused columns and combine with subjectID's and activityNames, 
 
 >>> * Merge data from the two sets together,
 
