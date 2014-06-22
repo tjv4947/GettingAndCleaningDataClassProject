@@ -2,6 +2,7 @@
 ###Course Poject Codebook file ##
 
 The following is a description of the tidy dataset taken from the raw Test and Train data files.  
+
 The data were combined with the activityNames taken from the activity_labels file (description below).  The activityNames were matched to the activityID column from the original data.  This column was removed from the tidy data, as it was not longer needed once  the descriptive names had been combined.
 
 _____
