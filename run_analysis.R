@@ -1,4 +1,6 @@
-## Project File for getting and cleaning data
+## Project File for Getting and Cleaning Data
+##
+##  R Script File for processing raw smart phone data
 ##
 ##   Assumes that the zip file has been downloaded and expanded from:
 ###   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -19,10 +21,9 @@
 
 
 print("Beginning to read data from disk.")
+
 ##  N.B. Could add error checking and abort execution if problem with files
-
-
-### read setup files
+## read setup files
     columnNames <- read.table("features.txt", col.names=c("idx","colName"))
     activityLabel <- read.table("activity_labels.txt", col.names=c("idx","activityName"))
 
@@ -39,14 +40,14 @@ print("     > Reading Test data from disk.")
     yTest <- read.table("./test/Y_test.txt", col.names=c("activityID"), strip.white=TRUE)
     subjectTest <- read.table("./test/subject_test.txt", col.names=c("subjectID"),strip.white=TRUE)
 
-    xTestRaw <- read.table("./test/X_test.txt", col.names=columnNames$colName, strip.white=TRUE)
+    xTestRaw <- read.table("./test/X_test.txt", col.names=as.character(columnNames$colName), strip.white=TRUE)
 
 ## read train data files
 print("     >> Reading Train data from disk.")
     yTrain <- read.table("./train/Y_train.txt", col.names=c("activityID"), strip.white=TRUE)
     subjectTrain <- read.table("./train/subject_train.txt", col.names=c("subjectID"), strip.white=TRUE)
 
-    xTrainRaw <- read.table("./train/X_train.txt", col.names=columnNames$colName, strip.white=TRUE)
+    xTrainRaw <- read.table("./train/X_train.txt", col.names=as.character(columnNames$colName), strip.white=TRUE)
 
 #####
 ## Start putting together initial datasets
